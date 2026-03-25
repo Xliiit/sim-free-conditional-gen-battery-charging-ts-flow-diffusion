@@ -1,0 +1,9 @@
+numpy>=1.26
+scipy>=1.13
+matplotlib>=3.9
+scikit-learn>=1.6
+tqdm>=4.67
+tensorboardX>=2.6
+torchmetrics>=1.8
+torchdiffeq>=0.2.5
+flow-matching>=1.0.10

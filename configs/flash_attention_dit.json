@@ -1,0 +1,35 @@
+{
+  "expr": "flash_attention_dit_2048",
+  "dataset_params": {
+    "battery_files": [
+      "./data/train.pkl"
+    ],
+    "valid_files": [
+      "./data/valid.pkl"
+    ]
+  },
+  "dit_model_params": {
+    "model": "Attention",
+    "seq_len": 2048,
+    "in_channels": 3,
+    "hidden_size": 128,
+    "depth": 4,
+    "num_heads": 8,
+    "mlp_ratio": 4.0,
+    "patch_size": 16,
+    "protocol_dim": 100
+  },
+  "flow_params": {
+    "ode_method": "midpoint",
+    "ode_options": {
+      "step_size": 0.1
+    }
+  },
+  "train_params": {
+    "lr": 0.0005,
+    "batch_size": 128,
+    "epochs": 700,
+    "eval_frequency": 10,
+    "test_samples": 216
+  }
+}
