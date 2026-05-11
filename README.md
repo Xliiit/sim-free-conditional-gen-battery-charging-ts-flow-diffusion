@@ -131,7 +131,7 @@ If you use this repository in your research, please cite the associated paper:
 ```bibtex
 @article{li2026flash,
   title   = {Simulation-free conditional generative modeling of lithium-ion battery charging time-series under mixed protocols using flow matching and diffusion transformers},
-  author  = {Li, Xiaotian and Huang, Xinghao and Tao, Shengyu and Liang, Chen and Wang, Runhua and Wang, Junpeng and Zhang, Jiale and Xia, Bizhong},
+  author  = {},
   journal = {To be updated},
   year    = {2026}
 }
